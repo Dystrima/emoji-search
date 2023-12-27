@@ -1,0 +1,18 @@
+.search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  input {
+    border: none;
+    background-color: $beige;
+    padding: 0.5rem;
+    width: 50%;
+    text-align: center;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1rem;
+    &::placeholder {
+      color: $dark-beige;
+    }
+  }
+}

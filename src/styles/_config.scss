@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+$main-font: 'Noto Sans', sans-serif;
+
+$beige: #ebcba5;
+$light-beige: #ffe4c4;
+$dark-beige: #776653;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $main-font;
+}
+
+h1 {
+  text-align: center;
+  margin: 2rem 2rem 5rem;
+}
+
+ul {
+  list-style: none;
+}
+
+// dark mode
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #313131;
+    color: #fefefe;
+  }
+}
+
+//light mode
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #fefefe;
+    color: #313131;
+  }
+}
