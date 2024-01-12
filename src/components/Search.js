@@ -12,7 +12,7 @@ const Search = () => {
 				<input
 					type="text"
 					placeholder="🔎 search..."
-					onChange={(e) => setSearchInput(e.target.value)}
+					onChange={(e) => setSearchInput(e.target.value.toLowerCase())}
 				/>
 			</div>
 			<div className="results">
